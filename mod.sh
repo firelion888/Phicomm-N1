@@ -55,7 +55,7 @@ sed -i 's/\"services\"/\"network\"/g' feeds/luci/applications/luci-app-upnp/luas
 sed -i 's/\"CPU 使用率（%）\"/\"CPU负载\"/g' feeds/luci/modules/luci-base/po/zh-cn/base.po
 sed -i 's/\"Argon 主题设置\"/\"主题设置\"/g' package/community/luci-app-argon-config/po/zh-cn/argon-config.po
 sed -i 's/\"TTYD 终端\"/\"网页终端\"/g' package/lean/luci-app-ttyd/po/zh-cn/terminal.po
-sed -i 's/\"解锁网易云灰色歌曲\"/\"Netease Music\"/g' package/lean/luci-app-unblockmusic/po/zh-cn/unblockmusic.po
+sed -i 's/\"解锁网易云灰色歌曲\"/\"NeteaseMusic\"/g' package/lean/luci-app-unblockmusic/po/zh-cn/unblockmusic.po
 #sed -i 's/\"SoftEther VPN 服务器\"/\"SoftEtherVPN\"/g' package/lean/luci-app-softethervpn/po/zh-cn/softethervpn.po
 #sed -i 's/\"动态 DNS\"/\"动态域名解析\"/g' feeds/luci/applications/luci-app-ddns/po/zh-cn/ddns.po
 #sed -i 's/\"Nps 内网穿透\"/\"NPS 内网穿透\"/g' package/lean/luci-app-nps/po/zh-cn/nps.po
