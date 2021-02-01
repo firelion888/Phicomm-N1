@@ -30,7 +30,7 @@ git clone https://github.com/jerrykuku/lua-maxminddb package/community/lua-maxmi
 git clone https://github.com/jerrykuku/luci-app-vssr package/community/luci-app-vssr
 #
 # > OpenClash
-#svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/community/luci-app-openclash
+svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/community/luci-app-openclash
 #
 # > Install to emmc script for phicomm n1
 #git clone https://github.com/tuanqing/install-program package/install-program
