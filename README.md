@@ -88,6 +88,7 @@ vi /etc/network/interfaces
 ```
 ```ini
 [按下键盘 Ins 键切至输入状态]
+
 source /etc/network/interfaces.d/*
 
 # Wired adapter #1
@@ -139,7 +140,7 @@ iptables -t nat -I POSTROUTING -o eth0 -j MASQUERADE
 
 - 所有设备 
 
->  `路由器` 设置 `旁路由` 为该路由器网关，该路由器下所有内网设备都通过 `旁路由` 网
+>  `路由器` 设置 `旁路由` 为该路由器网关，该路由器下所有内网设备都通过 `旁路由` 上网
 > 
 > 优点：该路由器下所有内网设备都能以旁路由模式上网，无需每台单独设置
 > 
